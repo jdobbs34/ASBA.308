@@ -84,7 +84,7 @@ function getLearnerData(course, ag, submissions) {
   
   console.log(totalPoints_possible)
 
-  let 125 = learner_id: 125;
+  let id_125_totalscore = learner_id: 125;
 
 }
 try {
@@ -102,11 +102,11 @@ try {
 let due_at = submitted_at;
 
 // Use if else for due date
-if (due_at <= 0) {
+if (due_at <= submitted_at) {
 
   console.log('on time');
 
-} else if (due_at > 0); {
+} else if (due_at > submitted_at); {
 
   console.log('late')
 }
