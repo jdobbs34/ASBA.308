@@ -97,9 +97,20 @@ try {
     { name: "Code the World", due_at:("3156-11-15") }, 
   ];
   
-  if
+let num = 103;
 
-  console.log(assignments)
+
+if (due_at <= 0) {
+
+    console.log('ontime');
+
+} else if (due_at > 0)); {
+
+  console.log('late')
+}
+ 
+
+  console.log(due_at)
   
   // let totalPoints_possible = 0;
   // for (let points_possible of points_possible){
