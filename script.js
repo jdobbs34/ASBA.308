@@ -80,10 +80,7 @@ function getLearnerData(course, ag, submissions) {
   // here, we would process this data to achieve the desired result.
   
   // Creating Variables
-
-
   const totalPoints_possible = points_possible
-
   console.log(totalPoints_possible)
 
   let submission1 
@@ -100,10 +97,7 @@ try {
     { name: "Code the World", due_at:("3156-11-15") }, 
   ];
   
-  let submission1 = 
-  
-  let submission2 =
-  let submission3 =
+  if
 
   console.log(assignments)
   
