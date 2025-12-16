@@ -81,8 +81,16 @@ function getLearnerData(course, ag, submissions) {
   
   // Creating Variables
   let totalPoints_possible = (50 + 150 + 500)
-  
+
   console.log(totalPoints_possible)
+
+  let id_125totalScore = (47 + 150 + 400)
+
+  console.log(id_125totalScore)
+
+  let id_132totalScore = (39 + 150)
+
+  console.log(id_132totalScore)
 
 }
 try {
@@ -108,6 +116,7 @@ if (submitted_at <= due_at) {
   console.log('late')
 }
  
+console.log(submitted_at)
 
   // for (let points_possible of points_possible){
   //   totalPoints_possible += assignments.points_possible;
