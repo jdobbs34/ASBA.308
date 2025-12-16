@@ -82,9 +82,8 @@ function getLearnerData(course, ag, submissions) {
   // Creating Variables
   const totalPoints_possible = points_possible
   console.log(totalPoints_possible)
-
-  let submission1 
-  let submission2 
+ 
+ 
   
 }
 try {
@@ -97,20 +96,21 @@ try {
     { name: "Code the World", due_at:("3156-11-15") }, 
   ];
   
-let num = 103;
+  console.log(assignments)
+  // Use if else for due date
+let due_at = submitted_at;
 
-
+// Use if else for due date
 if (due_at <= 0) {
 
-    console.log('ontime');
+  console.log('on time');
 
-} else if (due_at > 0)); {
+} else if (due_at > 0); {
 
   console.log('late')
 }
  
-
-  console.log(due_at)
+ 
   
   // let totalPoints_possible = 0;
   // for (let points_possible of points_possible){
@@ -119,9 +119,9 @@ if (due_at <= 0) {
   
   // console.log(totalPoints_possible)
   
-
   return result;
 } catch (error) {
+
 }
 
 const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
