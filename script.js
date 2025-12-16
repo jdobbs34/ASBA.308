@@ -80,16 +80,17 @@ function getLearnerData(course, ag, submissions) {
   // here, we would process this data to achieve the desired result.
   
   // Creating Variables
-  const totalPoints_possible = points_possible
-  console.log(totalPoints_possible)
- 
- 
+  let totalPoints_possible = (50 + 150 + 500)
   
+  console.log(totalPoints_possible)
+
+  let 125 = learner_id: 125;
+
 }
 try {
   
   
-  const result = [];
+ const result = [];
   const assignments = [
     { name: "Declare a Variable", due_at: ("2023-01-25") },
     { name: "Write a Function", due_at: ("2023-02-27") },
@@ -110,9 +111,7 @@ if (due_at <= 0) {
   console.log('late')
 }
  
- 
-  
-  // let totalPoints_possible = 0;
+
   // for (let points_possible of points_possible){
   //   totalPoints_possible += assignments.points_possible;
   // }
