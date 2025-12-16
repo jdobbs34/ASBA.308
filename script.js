@@ -79,6 +79,15 @@ const LearnerSubmissions = [
 function getLearnerData(course, ag, submissions) {
   // here, we would process this data to achieve the desired result.
   
+  // Creating Variables
+
+
+  const totalPoints_possible = points_possible
+
+  console.log(totalPoints_possible)
+
+  let submission1 
+  let submission2 
   
 }
 try {
@@ -91,14 +100,19 @@ try {
     { name: "Code the World", due_at:("3156-11-15") }, 
   ];
   
+  let submission1 = 
+  
+  let submission2 =
+  let submission3 =
+
   console.log(assignments)
   
-  let totalPoints_possible = 0;
-  for (let points_possible of points_possible){
-    totalPoints_possible += assignments.points_possible;
-  }
+  // let totalPoints_possible = 0;
+  // for (let points_possible of points_possible){
+  //   totalPoints_possible += assignments.points_possible;
+  // }
   
-  console.log(totalPoints_possible)
+  // console.log(totalPoints_possible)
   
 
   return result;
