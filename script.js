@@ -84,13 +84,10 @@ function getLearnerData(course, ag, submissions) {
   
   console.log(totalPoints_possible)
 
-  let id_125_totalscore = learner_id: 125;
-
 }
 try {
   
-  
- const result = [];
+  const result = [];
   const assignments = [
     { name: "Declare a Variable", due_at: ("2023-01-25") },
     { name: "Write a Function", due_at: ("2023-02-27") },
@@ -99,14 +96,14 @@ try {
   
   console.log(assignments)
   // Use if else for due date
-let due_at = submitted_at;
+let submitted_at = due_at;
 
 // Use if else for due date
-if (due_at <= submitted_at) {
+if (submitted_at <= due_at) {
 
   console.log('on time');
 
-} else if (due_at > submitted_at); {
+} else if (submitted_at > due_at); {
 
   console.log('late')
 }
